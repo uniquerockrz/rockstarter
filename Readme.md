@@ -1,4 +1,5 @@
-![Typical output](http://i.imgur.com/zMUgipI.png)
+![Typical output](https://raw.github.com/uniquerockrz/rockstarter/master/screen1.png)
+![Typical output](https://raw.github.com/uniquerockrz/rockstarter/master/screen2.png)
 
 Simple Men At Work, Under Construction Page
 
