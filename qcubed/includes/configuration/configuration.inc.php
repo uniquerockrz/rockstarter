@@ -58,9 +58,9 @@ if (!defined('SERVER_INSTANCE')) {
 			 *		__SUBDIRECTORY__ is defined as '/qcubed'
 			 *      /var/www/qcubed/wwwroot
 			 */
-			define ('__DOCROOT__', '');
-			define ('__VIRTUAL_DIRECTORY__', '');
-			define ('__SUBDIRECTORY__', '');
+			define ('__DOCROOT__', '/home/srvmdk/public_html');
+			define ('__VIRTUAL_DIRECTORY__', '/~srvmdk');
+			define ('__SUBDIRECTORY__', '/apps/php/rockstarter/qcubed');
 
 			/*
 			 * These definitions will hardly change, but you may change them based on your setup
@@ -185,11 +185,11 @@ if (!defined('SERVER_INSTANCE')) {
 			 */
 			define('DB_CONNECTION_1', serialize(array(
 				'adapter' => 'MySqli5',
-				'server' => 'localhost',
+				'server' => '127.11.246.1',
 				'port' => null,
-				'database' => '',
-				'username' => '',
-				'password' => '',
+				'database' => 'rockstarter',
+				'username' => 'srvmdk',
+				'password' => 'DeodimaILU',
 				'caching' => false,
 				'profiling' => false)));
 
