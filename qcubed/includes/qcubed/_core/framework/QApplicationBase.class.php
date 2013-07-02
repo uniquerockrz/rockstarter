@@ -644,7 +644,7 @@
 				return false;
 
 			// Are we localhost?
-			if (substr($_SERVER['REMOTE_ADDR'],0,4) == '127.' || $_SERVER['REMOTE_ADDR'] == '::1')
+			if (substr($_SERVER['HTTP_X_FORWARDED_FOR'],0,4) == '127.' || $_SERVER['HTTP_X_FORWARDED_FOR'] == '::1')
 				return false;
 
 			// Are we the correct IP?
