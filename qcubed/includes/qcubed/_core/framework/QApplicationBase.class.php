@@ -644,8 +644,15 @@
 				return false;
 
 			// Are we localhost?
-			if (substr($_SERVER['HTTP_X_FORWARDED_FOR'],0,4) == '127.' || $_SERVER['HTTP_X_FORWARDED_FOR'] == '::1')
-				return false;
+			if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])){
+                if(substr($_SERVER['HTTP_X_FORWARDED_FOR'],0,4) == '127.' || $_SERVER['HTTP_X_FORWARDED_FOR'] == '::1')
+                    return false;
+            }
+            else{
+                if (substr($_SERVER['REMOTE_ADDR'],0,4) == '127.' || $_SERVER['REMOTE_ADDR'] == '::1')
+                    return false;
+            }
+
 
 			// Are we the correct IP?
 			if (is_string(ALLOW_REMOTE_ADMIN))
