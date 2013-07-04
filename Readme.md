@@ -1,7 +1,7 @@
 ![Typical output](https://raw.github.com/uniquerockrz/rockstarter/master/screen1.png)
 ![Typical output](https://raw.github.com/uniquerockrz/rockstarter/master/screen2.png)
 
-Simple Men At Work, Under Construction Page
+Simple Men At Work, Under Construction Page, which you can use in your projects
 
 * Upload the files in your server
 * Change the values of 
