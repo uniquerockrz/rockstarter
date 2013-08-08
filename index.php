@@ -39,17 +39,8 @@ class EmailForm extends QForm{
             $this->lblMsg->Visible = true;
             return false;
         }
-        $i=0;
-        $isEmail=false;
-        $str=$this->txtBox1->Text;
-        while($i<strlen($str)){
-            if($str{$i}=='@'){
-                $isEmail=true;
-            }
-            $i++;
-        }
-        if($isEmail==false){
-            $this->lblMsg->Text = "Enter Email In Correct Format";
+        if(filter_var($this->txtBox1->Text, FILTER_VALIDATE_EMAIL)==false){
+            $this->lblMsg->Text = "That doesn't seem to be a valid e-mail address.";
             $this->lblMsg->Visible = true;
             return false;
         }

@@ -43,11 +43,11 @@
                 <div class="spacing-10"></div>
                 <div class="row">
                     <div class="span1">
-                        <strong>5%</strong>
+                        <strong>10%</strong>
                     </div>
                     <div class="span11">
                         <div class="progress progress-striped active">
-                            <div class="bar" style="width: 5%;"></div>
+                            <div class="bar" style="width: 10%;"></div>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="spacing-10"></div>
                 <div class="row">
                     <div class="span9 offset2">
-                        <a href="http://www.facebook.com/sauravmodak" class="btn btn-primary">Facebook Profile</a><span class="spacing-10-right"></span><a href="http://www.facebook.com/linuxb.in" class="btn btn-primary">Facebook Page</a><span class="spacing-10-right"></span><a href="https://twitter.com/SauravAtFreedom" class="btn btn-primary">Twitter</a><span class="spacing-10-right"></span><a href="mailto:support@linuxb.in" class="btn btn-primary">Email</a><span class="spacing-10-right"></span><a href="http://www.linuxb.in" class="btn btn-primary">Linux Blog</a><span class="spacing-10-right"></span><a href="/blog" class="btn btn-primary">Work Blog</a>
+                        <a href="http://www.facebook.com/sauravmodak" class="btn btn-primary">Facebook Profile</a>&nbsp;&nbsp;&nbsp;<a href="http://www.facebook.com/linuxb.in" class="btn btn-primary">Facebook Page</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/SauravAtFreedom" class="btn btn-primary">Twitter</a>&nbsp;&nbsp;&nbsp;<a href="mailto:support@linuxb.in" class="btn btn-primary">Email</a>&nbsp;&nbsp;&nbsp;<a href="http://www.linuxb.in" class="btn btn-primary">Linux Blog</a>&nbsp;&nbsp;&nbsp;<a href="/blog" class="btn btn-primary">Work Blog</a>
                     </div>
                 </div>
             </div>
