@@ -43,11 +43,11 @@
                 <div class="spacing-10"></div>
                 <div class="row">
                     <div class="span1">
-                        <strong>10%</strong>
+                        <strong>15%</strong>
                     </div>
                     <div class="span11">
                         <div class="progress progress-striped active">
-                            <div class="bar" style="width: 10%;"></div>
+                            <div class="bar" style="width: 15%;"></div>
                         </div>
                     </div>
                 </div>
