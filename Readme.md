@@ -1,3 +1,5 @@
+### THIS APP IS NO LONGER MAINTAINED. BUGS AND NEW FEATURES WILL NO LONGER BE LOOKED AT.
+
 ![Typical output](https://raw.github.com/uniquerockrz/rockstarter/master/screen1.png)
 ![Typical output](https://raw.github.com/uniquerockrz/rockstarter/master/screen2.png)
 
@@ -6,9 +8,9 @@ Simple Men At Work, Under Construction Page, which you can use in your projects
 * Upload the files in your server
 * Change the values of 
 
-define ('__DOCROOT__', '');
-			define ('__VIRTUAL_DIRECTORY__', '');
-			define ('__SUBDIRECTORY__', '');
+```define ('__DOCROOT__', '');
+```define ('__VIRTUAL_DIRECTORY__', '');
+```define ('__SUBDIRECTORY__', '');
 
 and
 
