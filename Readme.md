@@ -16,16 +16,17 @@ Simple Men At Work, Under Construction Page, which you can use in your projects
 ```
 and
 
-define('DB_CONNECTION_1', serialize(array(
-				'adapter' => 'MySqli5',
-				'server' => 'localhost',
-				'port' => null,
-				'database' => '',
-				'username' => '',
-				'password' => '',
-				'caching' => false,
-				'profiling' => false)));
-
+```
+    define('DB_CONNECTION_1', serialize(array(
+	    'adapter' => 'MySqli5',
+		'server' => 'localhost',
+		'port' => null,
+		'database' => '',
+		'username' => '',
+		'password' => '',
+		'caching' => false,
+		'profiling' => false)));
+```
 In qcubed/includes/configuration/configuration.inc.php
 
 * Create the database and run the commands in run.sql
